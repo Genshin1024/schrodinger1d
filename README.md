@@ -12,8 +12,9 @@ julia> pkg"add git@github.com:Genshin1024/schrodinger1d.git"
 ## Usage
 
 ```julia
-julia> potential(x) = 0.5*x^2
+julia> using schroinger1d
 
+julia> potential(x) = 0.5*x^2
 
 julia> energy, psi = schrodinger1d.solver(potential)
 
