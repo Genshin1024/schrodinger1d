@@ -1,8 +1,10 @@
-name = "schrodinger1d"
+name = "Schrodinger1d"
 uuid = "0a2b1e82-0a2d-4e5d-aa66-dcdf8af4d21a"
-authors = ["genshin1024 <roy2ss@163.com>"]
+authors = ["guixinliu <roy2ss@163.com>"]
 version = "0.1.0"
 
 [deps]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"

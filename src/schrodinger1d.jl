@@ -1,4 +1,4 @@
-module schrodinger1d
+module Schrodinger1d
 
 using LinearAlgebra:diagm,diag
 
